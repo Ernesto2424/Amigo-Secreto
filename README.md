@@ -11,6 +11,7 @@ El programa toma como entrada una lista de nombres de personas y asigna aleatori
 Entrada: Lista de nombres de los participantes.
 Salida: Un solo amigo secreto generado aleatoriamente.
 
+
 <h3>Flujo del programa</h3>
 
 <h4>Lista de amigos</h4>
