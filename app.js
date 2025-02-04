@@ -10,7 +10,7 @@ function agregarAmigo(){
         alert("Ingrese un nombre valido");
     }else{
         personas.push(personaIntroducida);
-        console.log(personaIntroducida);
+      //  console.log(personaIntroducida);
         actualizarLista();
         
     } 
@@ -37,7 +37,7 @@ function actualizarLista(){
 function sortearAmigo(){
 
     let numeroAleatorio = Math.floor(Math.random() * personas.length);
-    console.log(numeroAleatorio);
+ //   console.log(numeroAleatorio);
     
     if(personas.length>1){
         let ul = document.getElementById("resultado");
